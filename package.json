@@ -7,7 +7,7 @@
     "build": "tsc -p .",
     "postinstall": "npm run build",
     "start": "node dist/index.js",
-    "test": "jest --coverage --runInBand"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
