@@ -1,9 +1,9 @@
-# Daily Harvest Challenge
+# Daily Harvest
 
 ## Getting Started
 
-1. ```npm i``` Installs the dependencies and runs the build
-2. ```npm start``` Runs the program
+1. ```npm i``` - install the dependencies and run the build
+2. ```npm start``` - execute the program
 
 ## Commands
 
@@ -13,7 +13,7 @@
 | npm test      | executes tests via jest                          |
 | npm start     | executes program                                 |
 
-## Details
+## Challenge
 
 At Daily Harvest, we want to make it as easy as possible for our customers to get the healthy food
 that they enjoy. One way to do this is to allow people to search for products that contain a
