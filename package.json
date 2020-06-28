@@ -1,0 +1,47 @@
+{
+  "name": "daily-harvest-challenge",
+  "version": "1.0.0",
+  "description": "simple coding challenge for daily-harvest interview",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "postinstall": "npm run build",
+    "start": "node dist/index.js",
+    "test": "jest --coverage --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentierd/daily-harvest.git"
+  },
+  "keywords": [
+    "daily",
+    "harvest",
+    "coding",
+    "challenge",
+    "typescript"
+  ],
+  "author": "dayne mentier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mentierd/daily-harvest/issues"
+  },
+  "homepage": "https://github.com/mentierd/daily-harvest#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "12.12.47",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "testMatch": [
+      "**/?(*.)+(spec).ts"
+    ],
+    "transform": {
+      "^.+\\.(ts)$": "ts-jest"
+    }
+  }
+}
