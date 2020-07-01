@@ -31,3 +31,7 @@
 [http://localhost:8081/api/docs](http://localhost:8081/api/docs)
 
 ![alt text](./assets/swagger.png)
+
+## Coverage
+
+<img src="https://github.com/mentierd/daily-harvest/raw/master/assets/coverage.png" width="520"></img>
