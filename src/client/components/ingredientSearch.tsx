@@ -32,7 +32,6 @@ export default React.memo<IngredientSearchProps>((props) => {
             }}
             getOptionLabel={(option) => option.name}
             multiple
-            open
             onChange={props.onChange}
             options={data}
             renderInput={(params) => (
