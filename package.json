@@ -4,9 +4,12 @@
   "description": "simple coding challenge for daily-harvest interview",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -p .",
-    "postinstall": "npm run build",
-    "start": "node dist/index.js",
+    "build": "npm run build:client & npm run build:server",
+    "build:client": "env NODE_ENV=production webpack --config=build/webpack.client.config.js --mode=production",
+    "build:server": "env NODE_ENV=production webpack --config=build/webpack.server.config.js --mode=production",
+    "start": "npm run start:client & npm run start:server",
+    "start:client": "webpack-dev-server --config=build/webpack.client.config.js --mode=development --watch",
+    "start:server": "webpack --config=build/webpack.server.config.js --mode=development --watch",
     "test": "jest --coverage"
   },
   "repository": {
@@ -15,10 +18,7 @@
   },
   "keywords": [
     "daily",
-    "harvest",
-    "coding",
-    "challenge",
-    "typescript"
+    "harvest"
   ],
   "author": "dayne mentier",
   "license": "MIT",
@@ -26,22 +26,111 @@
     "url": "https://github.com/mentierd/daily-harvest/issues"
   },
   "homepage": "https://github.com/mentierd/daily-harvest#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.9.14",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-openapi-validator": "^3.16.4",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-query": "^2.4.2",
+    "react-use": "^15.3.2",
+    "swagger-ui-express": "^4.1.4"
+  },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.1",
+    "@babel/plugin-transform-typescript": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.3",
+    "@types/body-parser": "^1.19.0",
+    "@types/cucumber": "^6.0.1",
+    "@types/express": "^4.17.6",
     "@types/jest": "^26.0.3",
+    "@types/lodash": "^4.14.157",
     "@types/node": "12.12.47",
-    "jest": "^26.1.0",
-    "ts-jest": "^26.1.1",
-    "typescript": "^3.9.5"
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-query": "^1.1.2",
+    "@types/supertest": "^2.0.10",
+    "@types/webpack-node-externals": "^1.7.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "26.0.1",
+    "jest-openapi": "^0.9.4",
+    "jest-runner-cucumber": "^0.0.18",
+    "supertest": "^4.0.2",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^1.7.2"
   },
   "jest": {
-    "roots": [
-      "<rootDir>/tests"
-    ],
-    "testMatch": [
-      "**/?(*.)+(spec).ts"
+    "projects": [
+      {
+        "displayName": "Api",
+        "coveragePathIgnorePatterns": [
+          "node_modules",
+          "tests"
+        ],
+        "moduleDirectories": [
+          "node_modules"
+        ],
+        "moduleFileExtensions": [
+          "feature",
+          "js",
+          "json",
+          "node",
+          "ts",
+          "tsx"
+        ],
+        "testEnvironment": "node",
+        "testMatch": [
+          "<rootDir>/tests/api/**/?(*.)+(spec).ts"
+        ]
+      },
+      {
+        "displayName": "Integration",
+        "coveragePathIgnorePatterns": [
+          "node_modules",
+          "tests"
+        ],
+        "moduleDirectories": [
+          "node_modules"
+        ],
+        "moduleFileExtensions": [
+          "feature",
+          "js",
+          "json",
+          "node",
+          "ts",
+          "tsx"
+        ],
+        "runner": "jest-runner-cucumber",
+        "setupFiles": [
+          "<rootDir>/node_modules/jest-runner-cucumber/dist/mocks/window"
+        ],
+        "setupFilesAfterEnv": [
+          "<rootDir>/tests/integration/hooks.tsx",
+          "<rootDir>/tests/integration/steps.ts",
+          "<rootDir>/tests/integration/world.ts"
+        ],
+        "testMatch": [
+          "<rootDir>/tests/integration/**/*.feature"
+        ],
+        "testURL": "http://127.0.0.1/"
+      }
     ],
     "transform": {
-      "^.+\\.(ts)$": "ts-jest"
+      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
     }
   }
 }

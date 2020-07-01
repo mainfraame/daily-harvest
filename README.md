@@ -3,38 +3,31 @@
 ## Getting Started
 
 1. ```npm i``` - install the dependencies and run the build
-2. ```npm start``` - execute the program
+2. ```npm start``` - start the client & server incremental dev builds
+3. visit [http://localhost:8080](http://localhost:8080) to access the web application
+4. visit [http://localhost:8081/api/docs](http://localhost:8081/api/docs)
+ for the swagger docs
 
 ## Commands
 
-| cmd           | description                                      |
-|---------------|--------------------------------------------------|
-| npm run build | compiles src folder to dist folder               |
-| npm test      | executes tests via jest                          |
-| npm start     | executes program                                 |
+| command              | description                                            |
+|----------------------|--------------------------------------------------------|
+| npm start            | start the server and client incremental dev builds     |
+| npm test             | executes api & integration tests                       |
+| npm run build        | compiles client and server source code                 |
+| npm run build:client | compiles src/client to dist/client                     |
+| npm run build:server | compiles src/server to dist/server                     |
+| npm run start:client | start the client incremental dev build                 |
+| npm run start:server | start the server incremental dev build                 |
 
-## Challenge
+## App
 
-At Daily Harvest, we want to make it as easy as possible for our customers to get the healthy food
-that they enjoy. One way to do this is to allow people to search for products that contain a
-favorite ingredient (*apples, kale, cinnamon, etc.*).
+[http://localhost:8080](http://localhost:8080)
 
-We have provided two files that define products and ingredients in JSON format:
+![alt text](./assets/app.png)
 
-- products.json
-- ingredients.json
+## Swagger Docs
 
-In a language of your choice (*python and javascript preferred, but any modern language that will
-run under OSX or Linux will be accepted*), please write a program that returns all products
-(*defined in products.json*) that contain the ingredient ***“Organic Banana”*** (*defined in
-ingredients.json*). 
+[http://localhost:8081/api/docs](http://localhost:8081/api/docs)
 
-With your solution, please include any instructions for configuring and running
-your program.
-
-## Notes
-
-- Do not modify the json files
-- Keep your code as clean and readable as possible.
-- Bonus points for organization and documentation.
-- Bonus points for tests.
+![alt text](./assets/swagger.png)

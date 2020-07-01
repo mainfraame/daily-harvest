@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "name": "Acai + Cherry",
+    "collection": "smoothie",
+    "images": [
+      "https://images.ctfassets.net/iw4cawak30d4/1CT0Q5tiVstKJDVTekLApN/e3844d99d29ff86bcfc93a7d2323bb6a/ingredients-image_3x.jpeg?fl=progressive&w=1200",
+      "https://images.ctfassets.net/iw4cawak30d4/1q0dxhQIVjeNah1Ctd78dn/ebe72f0c40cd1cce7a08bdf7fa802519/A01-ACAI_Acai___Cherry-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/29mMhrXbdTBCSriBtm64Ye/7739ce1d8cd9431442aeca9bd34b1ef2/A01-ACAI_Acai___Cherry_blended-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/2ZroCXUbf2bO1QFXJReT51/ca2c2abd135f1b71a97198d0b05adc14/200219_TetrisRefresh1_10_LinesSmoothieOatHB_407_Final_gm-Product-Shot-3.jpg?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/1UQXdWjBFstGb3PgSDlt8P/55b4ac36b00e22799cfe45e2611ddb9c/200219_TetrisRefresh2_01_Group_On_White_018_UPDATEBOWLSIZE_Final-Product-Shot-4.jpg?fl=progressive&w=982"
+    ],
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Organic Acai Berry",
+        "is_allergen": false
+      },
+      {
+        "id": 3,
+        "name": "Organic Banana",
+        "is_allergen": false
+      },
+      {
+        "id": 4,
+        "name": "Organic Blueberry",
+        "is_allergen": false
+      },
+      {
+        "id": 2,
+        "name": "Organic Cherry",
+        "is_allergen": false
+      },
+      {
+        "id": 5,
+        "name": "Organic Kale",
+        "is_allergen": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Beet + Avocado Poke",
+    "collection": "harvest bowl",
+    "images": [
+      "https://images.ctfassets.net/iw4cawak30d4/4VoGETbmf2oxejBbBdKhTL/bc203c70d550df1e00b1269a87c3bdc2/f07-ingredients-image.jpeg?fl=progressive&w=1200",
+      "https://images.ctfassets.net/iw4cawak30d4/35AUNhCNebUv6CeAGRCRLh/324c039793fb5e160b7137f8f085ef7f/F07-POKE_Beet___Avocado_Poke__-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/5NWUKl3UGjgJ0lm03TAw7z/5c3b11836f9912a5fa91ab38f5874d63/200114_DH_JTGS_CL_10_BeetPoke_721_LR_Final-Product-Shot-2.jpg?fl=progressive&w=982"
+    ],
+    "ingredients": [
+      {
+        "id": 10,
+        "name": "Avocado",
+        "is_allergen": false
+      },
+      {
+        "id": 16,
+        "name": "Beets",
+        "is_allergen": false
+      },
+      {
+        "id": 7,
+        "name": "Ginger",
+        "is_allergen": false
+      },
+      {
+        "id": 17,
+        "name": "Macadamia Nut",
+        "is_allergen": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chocolate + Blueberry",
+    "collection": "smoothie",
+    "images": [
+      "https://images.ctfassets.net/iw4cawak30d4/4jtkVmuLNsQpDltEhUH73M/d81826962003721aa1a821b01fb54e6c/Chocolate___Blueberry_ingredients-image_3x.jpeg?fl=progressive&w=1200",
+      "https://images.ctfassets.net/iw4cawak30d4/1uAHoSHtcZhYLR7l2gk9o9/1bc52c676af368a6a3d3b63a7a21e4ef/A11-CHOBLU_Chocolate___Blueberry-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/1ONW56EfVGCzmctBd4TvQI/01b032bd929f6f323e7ee77e42c8c072/A11-CHOBLU_Chocolate___Blueberry_blended-Product-Shot.png?fl=progressive&w=982"
+    ],
+    "ingredients": [
+      {
+        "id": 26,
+        "name": "Cacao",
+        "is_allergen": false
+      },
+      {
+        "id": 3,
+        "name": "Organic Banana",
+        "is_allergen": false
+      },
+      {
+        "id": 4,
+        "name": "Organic Blueberry",
+        "is_allergen": false
+      },
+      {
+        "id": 5,
+        "name": "Organic Kale",
+        "is_allergen": false
+      },
+      {
+        "id": 12,
+        "name": "Organic Spinach",
+        "is_allergen": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Cinnamon + Banana",
+    "collection": "oat bowl",
+    "images": [
+      "https://images.ctfassets.net/iw4cawak30d4/5geumuGcjg8ZPqy3HaUs2G/e36bfa8f941384986917c036de878eee/Cinnamon___Banana_ingredients-image_3x.jpeg?fl=progressive&w=1200",
+      "https://images.ctfassets.net/iw4cawak30d4/eAiZVKUhv8y8ENWd8npje/ea73928e7600126728b57d7c582c5cc3/D01-CINNA_Cinnamon_Protein___Banana-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/2ZsXhsVi6ccgWedqTxXnLt/035db5fa07ee96054664e90bdeafe312/17_AppleCinnamon_CinnamonProteinBanana_Group_190129_DH_FebSocial_CasonLatimer_766_LR_Final_copy-Product-Shot-2.jpg?fl=progressive&w=982"
+    ],
+    "ingredients": [
+      {
+        "id": 26,
+        "name": "Cacao",
+        "is_allergen": false
+      },
+      {
+        "id": 19,
+        "name": "Cinnamon",
+        "is_allergen": false
+      },
+      {
+        "id": 21,
+        "name": "Maple",
+        "is_allergen": false
+      },
+      {
+        "id": 20,
+        "name": "Oats",
+        "is_allergen": false
+      },
+      {
+        "id": 3,
+        "name": "Organic Banana",
+        "is_allergen": false
+      },
+      {
+        "id": 22,
+        "name": "Organic Butternut Squash",
+        "is_allergen": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ginger + Greens",
+    "collection": "smoothie",
+    "images": [
+      "https://images.ctfassets.net/iw4cawak30d4/5etL3Uy9hmgNdwa7u9HMaw/661f3ad60f7e0ac8fe0a79496b9a0bd0/Ginger___Greens_ingredients-image_2x-squashed.jpeg?fl=progressive&w=1200",
+      "https://images.ctfassets.net/iw4cawak30d4/3fcbAZtKaQU9l6lr44fa4A/cbde000709e8c88321e06369b0b02f5a/A17-GING_Ginger___Greens-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/30pk65DhYei880XlodOPI3/cf3ed6cbcdcb65d0db5f5237faa6ccf3/A17-GING_Ginger___Greens_blended-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/4R9rRE5V7WFYG5zPENfRza/1bc3397aef66284e27df1d0562f40e18/181108_DH_NewYearsSubway_Ginger_Greens032_R3_LABEL_Tetris-Product-Shot-3.jpg?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/4GusUTuaf1phwFlLNDCxid/961391992bb67d32b381b8f0e3b0c3e5/190813_DH_SeptOnFig_SA_Shot01_089_Tetris_Final-Product-Shot-4.jpg?fl=progressive&w=982"
+    ],
+    "ingredients": [
+      {
+        "id": 10,
+        "name": "Avocado",
+        "is_allergen": false
+      },
+      {
+        "id": 7,
+        "name": "Ginger",
+        "is_allergen": false
+      },
+      {
+        "id": 3,
+        "name": "Organic Banana",
+        "is_allergen": false
+      },
+      {
+        "id": 11,
+        "name": "Organic Flax Seeds",
+        "is_allergen": false
+      },
+      {
+        "id": 12,
+        "name": "Organic Spinach",
+        "is_allergen": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mushroom + Miso",
+    "collection": "soup",
+    "images": [
+      "https://images.ctfassets.net/iw4cawak30d4/5Jv5310GN2Op0fUzdjFjWA/b4c346b7f349bc80b39e3684f191e125/Mushroom___Miso_ingredients-image_3x.jpeg?fl=progressive&w=1200",
+      "https://images.ctfassets.net/iw4cawak30d4/1DWEg4ePnI7StHcCJbaFDm/a0889b021b56b30f19f1ac6fea6be721/B01-RAMEN-Product-Shot.png?fl=progressive&w=982",
+      "https://images.ctfassets.net/iw4cawak30d4/92Z035GNBc6fEjnzcP6BW/8754058aeb5add78b01877c301548851/181112_DH_LifestyleSocialNov12_CasonLatimer_02_MushroomMisoSoup_065_v2-Product-Shot-2.jpg?fl=progressive&w=982"
+    ],
+    "ingredients": [
+      {
+        "id": 7,
+        "name": "Ginger",
+        "is_allergen": false
+      },
+      {
+        "id": 25,
+        "name": "Miso",
+        "is_allergen": false
+      },
+      {
+        "id": 23,
+        "name": "Mushrooms",
+        "is_allergen": false
+      },
+      {
+        "id": 22,
+        "name": "Organic Butternut Squash",
+        "is_allergen": false
+      },
+      {
+        "id": 12,
+        "name": "Organic Spinach",
+        "is_allergen": false
+      },
+      {
+        "id": 24,
+        "name": "Seaweed",
+        "is_allergen": false
+      }
+    ]
+  }
+]
