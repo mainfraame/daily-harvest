@@ -26,7 +26,7 @@ export const productCard = {
 };
 
 export const search = {
-    clearBtn: '.MuiAutocomplete-clearIndicator',
+    clearBtn: '.MuiAutocomplete-clearIndicatorDirty',
     options: (index?) => (
         index
             ? `[data-option-index=${index}]`

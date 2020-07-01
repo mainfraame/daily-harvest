@@ -10,7 +10,7 @@
     "start": "npm run start:client & npm run start:server",
     "start:client": "webpack-dev-server --config=build/webpack.client.config.js --mode=development --watch",
     "start:server": "webpack --config=build/webpack.server.config.js --mode=development --watch",
-    "test": "jest --coverage"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
